@@ -1839,7 +1839,7 @@
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
-				width: 100%;
+				width: 50%;
 			}
 
 		header.major > p {
@@ -3368,7 +3368,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.6;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3487,6 +3487,7 @@
 
 			#banner {
 				background-attachment: scroll;
+				background-image: url("../../images/banner3.jpg");
 			}
 
 		}
@@ -3500,6 +3501,7 @@
 				max-height: none;
 				min-height: 0;
 				top: -2.75em;
+				background-image: url("../../images/banner2.jpg");
 			}
 
 				#banner h1 {
@@ -3527,6 +3529,7 @@
 
 			#banner {
 				padding: 6em 0 2em 0 ;
+				background-image: url("../../images/banner2.jpg");
 			}
 
 				#banner > .inner .content p br {
