@@ -3434,7 +3434,7 @@
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
@@ -3489,6 +3489,12 @@
 				background-attachment: scroll;
 				background-image: url("../../images/banner3.jpg");
 			}
+			
+				#banner.major {
+					height: 100vh;
+					min-height: 0;
+					max-height: none;
+				}
 
 		}
 
@@ -3518,7 +3524,7 @@
 					}
 
 				#banner.major {
-					height: auto;
+					height: 100vh;
 					min-height: 0;
 					max-height: none;
 				}
@@ -3538,6 +3544,7 @@
 
 				#banner.major {
 					padding: 8em 0 4em 0 ;
+					height: 100vh;
 				}
 
 		}
